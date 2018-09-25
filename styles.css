@@ -25,6 +25,7 @@ body,
   border: 0;
   widows: 15rem;
   padding-left: 0.3em;
+  transition: width 0.3s;
 }
 
 /* Before animating define the before and after properties of the element being animated.*/
@@ -38,11 +39,13 @@ body,
   background-color: #2980b9;
   padding: 0 1em;
   cursor: pointer;
+  transition: background-color 0.3s; /* first param is the property name that you want to animate, 2nd is how long you want it to last*/
 }
 #button:hover {
   background-color: #9ab929;
 }
 /*End of Animation #2 ->*/
+
 #button h1 {
   font-family: sans-serif;
   margin: 0;
