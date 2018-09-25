@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: rgb(180, 180, 180);
+}
+
+/*Centering the content of the body and the button. Content of the body is the search part and the content of the button is the submit text*/
+body,
+#button {
+  display: flex;
+  justify-content: center; /* centers it horizontally*/
+  align-items: center; /*centers it vertically*/
+}
+/*set to flex so the text input and the button lay out horizontally*/
+#searchBar {
+  height: 4em;
+  display: flex;
+}
+.input {
+  font-size: 1.8em;
+  font-weight: 300;
+  outline: none; /*gets rid of blue outline when you click in the input field*/
+  border: 0;
+  widows: 15rem;
+  padding-left: 0.3em;
+}
+#button {
+  background-color: #2980b9;
+  padding: 0 1em;
+  cursor: pointer;
+}
+#button h1 {
+  font-family: sans-serif;
+  margin: 0;
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 300;
+}
