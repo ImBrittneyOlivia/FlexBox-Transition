@@ -16,6 +16,8 @@ body,
   height: 4em;
   display: flex;
 }
+
+/*Animation #1 ->*/
 .input {
   font-size: 1.8em;
   font-weight: 300;
@@ -24,11 +26,23 @@ body,
   widows: 15rem;
   padding-left: 0.3em;
 }
+
+/* Before animating define the before and after properties of the element being animated.*/
+.input:focus {
+  width: 25rem;
+}
+/*End of Animation #1*/
+
+/*Animation #2 ->*/
 #button {
   background-color: #2980b9;
   padding: 0 1em;
   cursor: pointer;
 }
+#button:hover {
+  background-color: #9ab929;
+}
+/*End of Animation #2 ->*/
 #button h1 {
   font-family: sans-serif;
   margin: 0;
